@@ -1,0 +1,121 @@
+distribution,size,trial,algorithm,data_seed,pivot_seed,runtime_ms
+Random,500,1,Random pivot,5000,10005000,0.820625
+Random,500,1,First pivot,5000,,0.627458
+Random,500,2,First pivot,5001,,0.598083
+Random,500,2,Random pivot,5001,10005001,0.785417
+Random,500,3,Random pivot,5002,10005002,0.719667
+Random,500,3,First pivot,5002,,0.618750
+Random,500,4,First pivot,5003,,0.635625
+Random,500,4,Random pivot,5003,10005003,0.798542
+Random,500,5,Random pivot,5004,10005004,0.827750
+Random,500,5,First pivot,5004,,0.593875
+Random,1000,1,Random pivot,10000,10010000,1.894292
+Random,1000,1,First pivot,10000,,1.391958
+Random,1000,2,First pivot,10001,,1.383500
+Random,1000,2,Random pivot,10001,10010001,1.970250
+Random,1000,3,Random pivot,10002,10010002,1.450084
+Random,1000,3,First pivot,10002,,1.277917
+Random,1000,4,First pivot,10003,,1.529083
+Random,1000,4,Random pivot,10003,10010003,1.776625
+Random,1000,5,Random pivot,10004,10010004,1.664542
+Random,1000,5,First pivot,10004,,1.211625
+Random,2000,1,Random pivot,20000,10020000,3.510667
+Random,2000,1,First pivot,20000,,3.225000
+Random,2000,2,First pivot,20001,,3.013208
+Random,2000,2,Random pivot,20001,10020001,3.765500
+Random,2000,3,Random pivot,20002,10020002,3.514750
+Random,2000,3,First pivot,20002,,3.043000
+Random,2000,4,First pivot,20003,,3.160958
+Random,2000,4,Random pivot,20003,10020003,3.781458
+Random,2000,5,Random pivot,20004,10020004,5.185666
+Random,2000,5,First pivot,20004,,5.389083
+Sorted,500,1,Random pivot,1005000,11005000,0.965166
+Sorted,500,1,First pivot,1005000,,11.274833
+Sorted,500,2,First pivot,1005001,,9.467625
+Sorted,500,2,Random pivot,1005001,11005001,0.742875
+Sorted,500,3,Random pivot,1005002,11005002,0.689917
+Sorted,500,3,First pivot,1005002,,7.867541
+Sorted,500,4,First pivot,1005003,,8.474666
+Sorted,500,4,Random pivot,1005003,11005003,0.756792
+Sorted,500,5,Random pivot,1005004,11005004,0.731041
+Sorted,500,5,First pivot,1005004,,7.726125
+Sorted,1000,1,Random pivot,1010000,11010000,1.428500
+Sorted,1000,1,First pivot,1010000,,33.715916
+Sorted,1000,2,First pivot,1010001,,33.874416
+Sorted,1000,2,Random pivot,1010001,11010001,1.556333
+Sorted,1000,3,Random pivot,1010002,11010002,1.589917
+Sorted,1000,3,First pivot,1010002,,32.256500
+Sorted,1000,4,First pivot,1010003,,32.792458
+Sorted,1000,4,Random pivot,1010003,11010003,1.818833
+Sorted,1000,5,Random pivot,1010004,11010004,1.547375
+Sorted,1000,5,First pivot,1010004,,31.891500
+Sorted,2000,1,Random pivot,1020000,11020000,3.426458
+Sorted,2000,1,First pivot,1020000,,127.752875
+Sorted,2000,2,First pivot,1020001,,129.395334
+Sorted,2000,2,Random pivot,1020001,11020001,3.322875
+Sorted,2000,3,Random pivot,1020002,11020002,3.444292
+Sorted,2000,3,First pivot,1020002,,127.424333
+Sorted,2000,4,First pivot,1020003,,129.474250
+Sorted,2000,4,Random pivot,1020003,11020003,3.616041
+Sorted,2000,5,Random pivot,1020004,11020004,3.387250
+Sorted,2000,5,First pivot,1020004,,128.267833
+Reverse sorted,500,1,Random pivot,2005000,12005000,0.674792
+Reverse sorted,500,1,First pivot,2005000,,9.704792
+Reverse sorted,500,2,First pivot,2005001,,9.622041
+Reverse sorted,500,2,Random pivot,2005001,12005001,0.693667
+Reverse sorted,500,3,Random pivot,2005002,12005002,0.732416
+Reverse sorted,500,3,First pivot,2005002,,9.598125
+Reverse sorted,500,4,First pivot,2005003,,9.624416
+Reverse sorted,500,4,Random pivot,2005003,12005003,0.755125
+Reverse sorted,500,5,Random pivot,2005004,12005004,0.717667
+Reverse sorted,500,5,First pivot,2005004,,9.709208
+Reverse sorted,1000,1,Random pivot,2010000,12010000,1.614542
+Reverse sorted,1000,1,First pivot,2010000,,39.515916
+Reverse sorted,1000,2,First pivot,2010001,,40.396333
+Reverse sorted,1000,2,Random pivot,2010001,12010001,1.607000
+Reverse sorted,1000,3,Random pivot,2010002,12010002,1.637541
+Reverse sorted,1000,3,First pivot,2010002,,40.712250
+Reverse sorted,1000,4,First pivot,2010003,,40.795917
+Reverse sorted,1000,4,Random pivot,2010003,12010003,1.566708
+Reverse sorted,1000,5,Random pivot,2010004,12010004,1.573958
+Reverse sorted,1000,5,First pivot,2010004,,40.661167
+Reverse sorted,2000,1,Random pivot,2020000,12020000,3.311084
+Reverse sorted,2000,1,First pivot,2020000,,162.783416
+Reverse sorted,2000,2,First pivot,2020001,,161.558750
+Reverse sorted,2000,2,Random pivot,2020001,12020001,3.418708
+Reverse sorted,2000,3,Random pivot,2020002,12020002,3.664708
+Reverse sorted,2000,3,First pivot,2020002,,161.472334
+Reverse sorted,2000,4,First pivot,2020003,,163.048417
+Reverse sorted,2000,4,Random pivot,2020003,12020003,3.602833
+Reverse sorted,2000,5,Random pivot,2020004,12020004,3.307083
+Reverse sorted,2000,5,First pivot,2020004,,169.220333
+Repeated,500,1,Random pivot,3005000,13005000,0.161750
+Repeated,500,1,First pivot,3005000,,0.144375
+Repeated,500,2,First pivot,3005001,,0.134000
+Repeated,500,2,Random pivot,3005001,13005001,0.174916
+Repeated,500,3,Random pivot,3005002,13005002,0.163583
+Repeated,500,3,First pivot,3005002,,0.133792
+Repeated,500,4,First pivot,3005003,,0.146334
+Repeated,500,4,Random pivot,3005003,13005003,0.138084
+Repeated,500,5,Random pivot,3005004,13005004,0.191000
+Repeated,500,5,First pivot,3005004,,0.177958
+Repeated,1000,1,Random pivot,3010000,13010000,0.280959
+Repeated,1000,1,First pivot,3010000,,0.307542
+Repeated,1000,2,First pivot,3010001,,0.283291
+Repeated,1000,2,Random pivot,3010001,13010001,0.301541
+Repeated,1000,3,Random pivot,3010002,13010002,0.393042
+Repeated,1000,3,First pivot,3010002,,0.300167
+Repeated,1000,4,First pivot,3010003,,0.320042
+Repeated,1000,4,Random pivot,3010003,13010003,0.376834
+Repeated,1000,5,Random pivot,3010004,13010004,0.271625
+Repeated,1000,5,First pivot,3010004,,0.288458
+Repeated,2000,1,Random pivot,3020000,13020000,0.592291
+Repeated,2000,1,First pivot,3020000,,0.530083
+Repeated,2000,2,First pivot,3020001,,0.594375
+Repeated,2000,2,Random pivot,3020001,13020001,0.604167
+Repeated,2000,3,Random pivot,3020002,13020002,0.678375
+Repeated,2000,3,First pivot,3020002,,0.669708
+Repeated,2000,4,First pivot,3020003,,0.805750
+Repeated,2000,4,Random pivot,3020003,13020003,0.663333
+Repeated,2000,5,Random pivot,3020004,13020004,0.617042
+Repeated,2000,5,First pivot,3020004,,0.649000
